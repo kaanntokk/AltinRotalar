@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Ana Sayfa</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Gezilecek Yerler</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Bölgesel Lezzetler</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Bize Ulaşın</a>
+  </div>
+</div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:100px">
+
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Altın Rotalar'a Hoşgeldiniz.</h1>
+      <h1 style="font-size:30px;">Sitemiz hakkında</h1>
+	  <p style="font-size:20px;">Altın Rotalar, Türkiye'nin kültürel, tarihi ve doğal zenginliklerini tanıtmayı amaçlayan kapsamlı bir gezi rehberidir. Amacımız, ziyaretçilerimize Türkiye'nin dört bir yanındaki görülmeye değer destinasyonlar hakkında doğru, güncel ve detaylı bilgiler sunmaktır.</p>
+	  <p style="font-size:20px;">Sitemiz; bölgesel seyahat önerileri, ulaşım ve konaklama imkanları, yerel lezzetler ve deneyimlenmesi gereken etkinlikler gibi seyahate dair birçok içeriği bir araya getirerek kullanıcılarına ilham verici bir planlama deneyimi sunar.</p>
+	  <p style="font-size:20px;">Altın Rotalar, gezginlerin keşiflerini daha bilinçli ve keyifli hale getirmeyi hedefler. Seyahatinizi planlamadan önce uğramanız gereken ilk durak olarak size ilham vermekten mutluluk duyarız.</p>
+	  <br>
+	  
+	  <section class="featured-routes">
+  <h2>Öne Çıkan Rotalar</h2>
+  <div class="routes-container">
+    <div class="route-card">
+      <img src="img/kapadokya.jpg" alt="Kapadokya" style="width:59%; height:400px; object-fit:cover; display:block;">
+      <br>
+	  <h3>Kapadokya</h3>
+	  <p style="font-size:20px;">Kapadokya, Türkiye’nin en popüler turistik bölgelerinden biridir. Efsanevi peri bacalarının büyüleyici manzarası, sıcak hava balonlarıyla yapılan turlar ve tarihi yer altı şehirleriyle ünlüdür. Kapadokya, her yıl yerli ve yabancı turistlerin ilgisini çeker ve ziyaretçilere unutulmaz bir deneyim sunar. Göreme, Ürgüp, Avanos gibi kasabalar, bölgedeki en çok tercih edilen rotalardandır.</p>
+	  <br>
+	  <br>
+	</div>
+    <div class="route-card">
+      <img src="img/pamukkale.jpg" alt="Pamukkale" style="width:59%; height:400px; object-fit:cover; display:block;">
+      <br>
+	  <h3>Pamukkale</h3>
+      <p style="font-size:20px;">Pamukkale, dünyaca ünlü beyaz traverten teraslarıyla tanınan, Türkiye’nin en benzersiz doğal harikalarından biridir. Denizli il sınırlarında yer alan bu bölge, sıcak su kaynaklarının minerallerle birleşerek muazzam beyaz bir görüntü oluşturduğu eşsiz manzarasıyla ziyaretçilerini büyüler. Pamukkale’nin tarihi Hierapolis Antik Kenti, zengin kültürel mirasıyla da dikkat çeker. Bu eşsiz doğa ve tarih birleşimi, her yıl binlerce turistin ilgisini çeker.</p>
+	  <br>
+	  <br>
+	</div>
+    <div class="route-card">
+      <img src="img/amasra.jpg" alt="Amasra" style="width:59%; height:400px; object-fit:cover; display:block;">
+      <br>
+	  <h3>Amasra</h3>
+      <p style="font-size:20px;">Amasra, Karadeniz’in incisi olarak bilinen, Bartın il sınırlarında yer alan küçük ama büyüleyici bir tatil beldesidir. Doğal güzellikleri, tarihi zenginlikleri ve eşsiz manzarasıyla ziyaretçilerine huzurlu bir atmosfer sunar. Amasra, şirin plajları, tarihî Amasra Kalesi, Antik Roma ve Bizans dönemlerinden kalma yapılarıyla dikkat çeker. Ayrıca, yöresel lezzetleri ve güzel balık restoranlarıyla da ünlüdür. Hem doğa hem de tarih severler için ideal bir kaçış noktasıdır.</p>
+      <br>
+	  <br>
+	</div>
+  </div>
+</section>
+	  
+	</div>
+    <div class="w3-third w3-container">
+      <img src="img/touristanbul.jpg" style="width:80%; height:800px; float: right; margin-left: 20px; margin-right: 20px;">
+      
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p><a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+</body>
+</html>
