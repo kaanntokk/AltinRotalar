@@ -1,4 +1,4 @@
-🌍 Altın Rotalar
+  🌍 Altın Rotalar
 Altın Rotalar, gezginler, turistler ve macera tutkunları için Türkiye'nin dört bir yanındaki en iyi seyahat rotalarını sunan bir platformdur. Bölgesel geziler, ulaşım önerileri, konaklama ipuçları, yerel lezzetler ve etkinlik bilgilerini bir araya getirir.
 
 🚀 Projenin Amacı
