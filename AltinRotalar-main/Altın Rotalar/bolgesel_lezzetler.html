@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bölgesel Lezzetler | Altın Rotalar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: #f5f5dc; font-family: 'Georgia', serif; margin: 0; padding: 0;">
+
+<!-- Navbar -->
+<div style="width: 100%; background-color: #f5f5dc; display: flex; justify-content: center;">
+    <a href="anasayfa.html" style="font-size: 25px; padding: 15px; background-color: #e3e39c; color: black; text-decoration: none;" onmouseover="this.style.backgroundColor='#ffcc33'; this.style.color='black';" onmouseout="this.style.backgroundColor='#e3e39c'; this.style.color='black';">Anasayfa</a>
+    <a href="bolge_seciniz.html" style="font-size: 25px; padding: 15px; background-color: #e3e39c; color: black; text-decoration: none;" onmouseover="this.style.backgroundColor='#ffcc33'; this.style.color='black';" onmouseout="this.style.backgroundColor='#e3e39c'; this.style.color='black';">Gezilecek Yerler</a>
+    <a href="bolgesel_lezzetler.html" style="font-size: 25px; padding: 15px; background-color: #e3e39c; color: black; text-decoration: none;" onmouseover="this.style.backgroundColor='#ffcc33'; this.style.color='black';" onmouseout="this.style.backgroundColor='#e3e39c'; this.style.color='black';">Bölgesel Lezzetler</a>
+    <a href="iletisim.html" style="font-size: 25px; padding: 15px; background-color: #e3e39c; color: black; text-decoration: none;" onmouseover="this.style.backgroundColor='#ffcc33'; this.style.color='black';" onmouseout="this.style.backgroundColor='#e3e39c'; this.style.color='black';">İletişim</a>
+</div>
+
+<div class="content" style="padding-bottom: 250px;">
+    <h1 style="font-size: 60px; margin-left: 13px; color: #00b3b3; font-weight: bold; letter-spacing: 2px; text-align: center; text-shadow: 2px 2px #666;">Bölgesel Lezzetler</h1>
+    
+    <p style="width: 900px; font-size: 25px; text-align: center; margin-left: 460px;">Altın Rotalar, her yörenin kendine özgü lezzetlerini keşfetmeniz için sizi benzersiz bir lezzet yolculuğuna çıkarıyor.</p>
+    <p style="width: 900px; font-size: 25px; text-align: center; margin-left: 460px;">Anadolu’nun kadim mutfağından modern sokak tatlarına kadar uzanan bu bölümde, hem damak tadınıza hitap eden tarifleri hem de tadılması gereken yerel restoran önerilerini bulabilirsiniz.</p>
+    <p style="width: 900px; font-size: 25px; text-align: center; margin-left: 460px;">Türkiye’nin zengin mutfak kültürünü yerinde keşfedin!</p>
+	<p style="width: 900px; font-size: 25px; text-align: center; margin-left: 460px;">Hızlı erişim için aşağıdaki butonları kullanabilirsiniz.</p>
+</div>
+
+<!-- Bölge Butonları -->
+<div style="text-align: center; margin-top: -230px;">
+  <a href="#marmara"><button style="font-weight: bold; font-size: 20px; margin:5px;padding:8px 12px;background-color:#00ffff;border:none;border-radius:5px;cursor:pointer;" onmouseover="this.style.backgroundColor='#00b3b3';" onmouseout="this.style.backgroundColor='#00ffff';">Marmara Mutfağı</button></a>
+  <a href="#ege"><button style="font-weight: bold; font-size: 20px; margin:5px;padding:8px 12px;background-color:#00ffff;border:none;border-radius:5px;cursor:pointer;" onmouseover="this.style.backgroundColor='#00b3b3';" onmouseout="this.style.backgroundColor='#00ffff';">Ege Mutfağı</button></a>
+<a href="#akdeniz"><button style="font-weight: bold; font-size: 20px; margin:5px;padding:8px 12px;background-color:#00ffff;border:none;border-radius:5px;cursor:pointer;" onmouseover="this.style.backgroundColor='#00b3b3';" onmouseout="this.style.backgroundColor='#00ffff';">Akdeniz Mutfağı</button></a>
+<a href="#ic-anadolu"><button style="font-weight: bold; font-size: 20px; margin:5px;padding:8px 12px;background-color:#00ffff;border:none;border-radius:5px;cursor:pointer;" onmouseover="this.style.backgroundColor='#00b3b3';" onmouseout="this.style.backgroundColor='#00ffff';">İç Anadolu Mutfağı</button></a>
+<a href="#karadeniz"><button style="font-weight: bold; font-size: 20px; margin:5px;padding:8px 12px;background-color:#00ffff;border:none;border-radius:5px;cursor:pointer;" onmouseover="this.style.backgroundColor='#00b3b3';" onmouseout="this.style.backgroundColor='#00ffff';">Karadeniz Mutfağı</button></a>
+<a href="#dogu-anadolu"><button style="font-weight: bold; font-size: 20px; margin:5px;padding:8px 12px;background-color:#00ffff;border:none;border-radius:5px;cursor:pointer;" onmouseover="this.style.backgroundColor='#00b3b3';" onmouseout="this.style.backgroundColor='#00ffff';">Doğu Anadolu Mutfağı</button></a>
+<a href="#guneydogu"><button style="font-weight: bold; font-size: 20px; margin:5px;padding:8px 12px;background-color:#00ffff;border:none;border-radius:5px;cursor:pointer;" onmouseover="this.style.backgroundColor='#00b3b3';" onmouseout="this.style.backgroundColor='#00ffff';">Güneydoğu Anadolu Mutfağı</button></a>
+</div>
+
+
+<!-- Yukarı Çık Butonu -->
+<button id="scrollToTopBtn" title="Yukarı Çık" 
+  style="position:fixed; bottom:20px; right:20px; display:none; text-decoration:none; background:#444; color:white; padding:10px 25px; border-radius:30px; font-size:18px; box-shadow:0 2px 6px rgba(0,0,0,0.3); z-index:100; cursor:pointer;">
+  ⬆ Yukarı Çık
+</button>
+
+<script>
+  // Butonu seç
+  const scrollBtn = document.getElementById("scrollToTopBtn");
+
+  // Scroll Olayı İle Göster/Gizle
+  window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      scrollBtn.style.display = "block";
+    } else {
+      scrollBtn.style.display = "none";
+    }
+  };
+
+  // Tıklanınca Yukarı Kaydır
+  scrollBtn.onclick = function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
+
+
+	<!-- Marmara Bölgesi -->
+<div id="marmara">
+<br>
+    <h2 style="text-align: center; font-size: 40px; margin-left: 13px;">Marmara Mutfağı</h2>
+
+    <img src="img/iskender.jpg" alt="İskender" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">İskender Kebap: Bursa’nın Efsane Lezzeti</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">İskender Kebap, ince dilim döner etinin tereyağı, domates sosu ve yoğurtla buluştuğu, Türkiye’nin en meşhur kebaplarından biridir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Adını yaratıcısı İskender Efendi’den alan bu özel lezzet, Bursa mutfağının gururu olarak hem yerli hem yabancı ziyaretçilerin favorisidir. Yanında sıcak pideyle servis edilen İskender, damakta unutulmaz bir tat bırakır.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+
+    <img src="img/kabaktatlisi.jpg" alt="Kabak Tatlısı" style="margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Kabak Tatlısı: Trakya’nın Sade Lezzeti</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Kabak Tatlısı, Trakya ve Marmara bölgesinin en sevilen geleneksel tatlılarından biridir. Kabaklar, şekerle ağır ağır pişirilir, üzerine ceviz serpilir ve bazen kaymakla servis edilir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Hem hafif hem de doğal tatlarıyla özellikle kış aylarının vazgeçilmezi olan bu tatlı, sofralara hem renk hem de tat katar.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<img src="img/kestanelipilav.jpg" alt="Kestaneli Pilav" style="margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Kestaneli Pilav: Kışın En Özel Lezzeti</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Kestaneli Pilav, Bursa ve Marmara bölgesinde özellikle kış aylarında yapılan, hem doyurucu hem de enfes aromasıyla dikkat çeken bir pilav türüdür.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Tane tane pirinçle birlikte haşlanmış kestaneler, tereyağı ve bazen kuş üzümüyle zenginleştirilir. Özel günlerin ve davet sofralarının vazgeçilmezi olan kestaneli pilav, hem görsel hem de lezzet açısından şölen sunar.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+
+<!-- Ege Bölgesi -->
+<div id="ege">
+<br>
+    <h2 style="text-align: center; font-size: 40px; margin-left: -20px;">Ege Mutfağı</h2>
+
+    <img src="img/izmirköfte.jpg" alt="İzmir Köfte" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">İzmir Köfte: Ege’nin Lezzet Dolu Klasik Yemeği</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">İzmir Köfte, yumuşak ve baharatlı köftelerin, domates sosuyla buluştuğu, fırında pişirilen nefis bir Ege yemeğidir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Yanında genellikle pilav ve yoğurtla servis edilir. Hem pratik hem doyurucu olan bu geleneksel tat, Ege mutfağının en sevilen lezzetlerinden biridir.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+
+    <img src="img/şevketibostan.jpg" alt="Şevketi Bostan" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Şevketi Bostan: Ege’nin Şifalı ve Lezzetli Ot Yemeği</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Şevketi Bostan, etli ya da zeytinyağlı olarak hazırlanan, özel bir ot yemeğidir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">İzmir başta olmak üzere Ege’nin birçok yerinde bahar aylarında toplanan bu şifalı ot, kendine has aroması ve yumuşacık dokusuyla sofralara doğanın taptaze lezzetini taşır. Genellikle kuzu etiyle pişirilir ve limonla tatlandırılır.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<img src="img/ayvatatlisi.jpg" alt="Ayva Tatlısı" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Ayva Tatlısı: Ege Sofralarının Zarif ve Lezzetli Finali</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Ayva Tatlısı, Ege mutfağının en zarif tatlılarından biridir. İçine ceviz konulan ayvalar, tarçınla tatlandırılmış şerbetle uzun süre kısık ateşte pişirilir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Renkli görünümüyle iştah açan bu tatlı, özellikle özel davet sofralarının vazgeçilmezidir. Üzerine kaymak ya da dondurma eklenerek sunulduğunda lezzeti taçlanır.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+
+	<!-- Akdeniz Bölgesi -->
+<div id="akdeniz">
+<br>
+    <h2 style="text-align: center; font-size: 40px; margin-left: 13px;">Akdeniz Mutfağı</h2>
+
+    <img src="img/tantuni.jpeg" alt="Tantuni" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Mersin Tantunisi: Sokaktan Gelen Efsane Lezzet</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">İncecik doğranmış etin sacda pamuk gibi lavaşla buluştuğu Mersin Tantunisi, sadece bir yemek değil; Akdeniz’in sıcak ruhunu taşıyan bir kültürdür.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Bol baharatı, taze domatesi ve yanında mutlaka ayranla sunulan bu lezzet, Mersin sokaklarının vazgeçilmezidir. Ayakta hızlıca yenip enerji veren tantuni, hem doyurucu hem bağımlılık yapacak kadar lezzetlidir.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+
+    <img src="img/kerebiç.jpg" alt="Kerebiç" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Kerebiç: Mersin’in Efsanevi Bayram Tatlısı</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Kerebiç, Mersin mutfağının eşsiz tatlılarından biridir. Dışı irmik veya unla yapılan yumuşak bir kurabiye, içi ise ceviz ya da Antep fıstığı dolgusu ile zenginleştirilir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Onu diğer tatlılardan ayıran asıl özelliği ise yanında sunulan beyaz, hafif köpük kıvamındaki özel çöven otu kremasıdır. Özellikle Ramazan ve bayram sofralarının vazgeçilmezi olan Kerebiç, hem geleneksel hem de görsel bir şölen sunar.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<img src="img/batırık.jpg" alt="Batırık" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Batırık: Torosların Doğal Lezzeti</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Batırık, Mersin ve çevresinde doğadan gelen tazelikle hazırlanan geleneksel bir yeşillik yemeğidir. Genellikle ıspanak, pazı gibi yeşilliklerin zeytinyağı, sarımsak ve yoğurtla buluştuğu bu hafif ve sağlıklı lezzet, hem kahvaltı sofralarının hem de hafif öğünlerin vazgeçilmezidir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Doğallığı ve ferah tadıyla Batırık, Torosların özgün mutfağından gelen eşsiz bir armağandır.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+
+<!-- İç Anadolu Bölgesi -->
+<div id="ic-anadolu">
+<br>
+    <h2 style="text-align: center; font-size: 40px; margin-left: 13px;">İç Anadolu Mutfağı</h2>
+
+    <img src="img/etliekmek.jpg" alt="Etliekmek" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Etli Ekmek: Konya’nın Meşhur İncecik Lezzeti</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Etli Ekmek, İç Anadolu mutfağının ve özellikle Konya’nın en tanınmış yemeklerinden biridir. İncecik uzun bir hamurun üzerine, kıyma, soğan, domates ve biberle hazırlanan özel harç yayılır, taş fırında çıtır çıtır pişirilir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Genellikle ayranla birlikte tüketilir. Hem doyurucu hem hafif olan bu lezzet, sadeliğiyle sofralarda kendine özgü bir yer edinmiştir. Konya’ya yolunuz düşerse, gerçek Etli Ekmek’i yerinde tatmadan dönmeyin!</p>
+	<br>
+	<br>
+	<br>
+	<br>
+
+    <img src="img/mantı.jpg" alt="Mantı" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Mantı: İç Anadolu’nun Minik Lezzet Bombası</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Mantı, Kayseri başta olmak üzere İç Anadolu’nun en bilinen yemeklerinden biridir. İçine kıyma konan minik hamur bohçaları kaynar suda pişirilir, üzerine sarımsaklı yoğurt ve kızdırılmış salçalı sos dökülür.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Lezzetiyle sınırları aşan bu geleneksel yemek, emek isteyen ama yemesi büyük keyif veren bir Anadolu klasiğidir.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<img src="img/höşmerim.jpg" alt="Höşmerim" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Höşmerim: İç Anadolu’nun Sütlü Tatlı Klasiği</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Höşmerim, taze peynir, irmik ve şekerle yapılan, hafif yapısıyla öne çıkan geleneksel bir tatlıdır. Eskişehir ve çevresinde sıkça yapılır, bazı yörelerde un da eklenerek hazırlanır.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Sıcakken ya da ılık servis edilen bu tatlı, hem hafifliğiyle hem de özgün lezzetiyle sofralara tatlı bir dokunuş getirir.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+	
+
+<!-- Karadeniz Bölgesi -->
+<div id="karadeniz">
+<br>
+    <h2 style="text-align: center; font-size: 40px; margin-left: 0px;">Karadeniz Mutfağı</h2>
+
+    <img src="img/hamsitava.jpg" alt="Hamsi Tava" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Hamsi Tava: Karadeniz’in Efsane Lezzeti</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Taptaze hamsilerin mısır ununa bulanıp kızartılmasıyla yapılan Hamsi Tava, Karadeniz’in vazgeçilmez sokak lezzetidir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Dışı çıtır, içi yumuşacık bu tat, özellikle balık sezonunda sofraları şenlendirir.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+
+    <img src="img/kuymak.jpg" alt="Kuymak" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Kuymak: Tereyağı ve Peynirin Büyülü Uyumu</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Kuymak, mısır unu, tereyağı ve yöresel peynirle hazırlanan, Karadeniz kahvaltılarının yıldızıdır.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Eriyen peyniri ve sıcak dokusuyla ekmek banarak yemenin keyfi tarif edilemez.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<img src="img/hamsiköysütlacı.jpg" alt="Hamsiköy Sütlacı" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Hamsiköy Sütlacı: Trabzon’un Taş Fırın Tatlısı</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Hamsiköy Sütlacı, odun ateşinde taş fırında pişirilir ve kremamsı yapısıyla ünlüdür.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Hafif yanık aroması ve üzerindeki tarçınla Karadeniz’in en sevilen sütlü tatlılarındandır.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+
+<!-- Doğu Anadolu Bölgesi -->
+<div id="dogu-anadolu">
+<br>
+    <h2 style="text-align: center; font-size: 40px; margin-left: 0px;">Doğu Anadolu Mutfağı</h2>
+
+    <img src="img/cagkebabi.jpeg" alt="Cağ Kebabı" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Cağ Kebabı: Erzurum’un Ateşle Dansı</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Odun ateşinde yavaşça pişirilen kuzu etinin ince ince dilimlenerek şişte servis edildiği Cağ Kebabı, Erzurum mutfağının gözbebeğidir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Lavaşla birlikte sunulur, yanında soğan ve ayranla harika gider. Etin yumuşaklığı ve is kokusu lezzeti zirveye taşır.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+
+    <img src="img/ispanakborani.jpg" alt="Ispanak Borani" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Ispanak Borani: Erzincan’dan Sağlıklı Bir Sofra</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Ispanak, nohut ve sarımsaklı yoğurtla buluşur, üzerine kızgın tereyağında nane gezdirilir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Hem hafif hem besleyici olan bu yemek, Erzincan yöresinde özellikle kış sofralarının vazgeçilmezidir. Et yemeyenler için harika bir ana yemek alternatifi.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<img src="img/sarayhelvası.jpeg" alt="Saray Helvası" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Saray Helvası: Doğu’nun Ağızda Dağılan Tatlısı</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Un, tereyağı ve şekerin ustalıkla birleştiği bu gevrek helva, Doğu Anadolu’da özellikle bayramlarda ve misafir sofralarında ikram edilir.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Bol cevizli ya da sade olarak hazırlanabilir. Az malzemeyle yapılan ama çok şey anlatan bir lezzettir.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+
+<!-- Güneydoğu Anadolu Bölgesi -->
+<div id="guneydogu">
+<br>
+    <h2 style="text-align: center; font-size: 40px; margin-left: 0px;">Güneydoğu Anadolu Mutfağı</h2>
+
+    <img src="img/taskebabi.jpg" alt="Tas Kebabı" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Tas Kebabı: Güneydoğu'nun Doyurucu Et Klasiği</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Yumuşacık kuşbaşı et, patates ve havuç gibi sebzelerle birlikte ağır ateşte pişirilir. Salçalı sosuyla harmanlanarak güveçte ya da tencerede sunulur.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Yanında pilavla servis edildiğinde mükemmel bir ana öğün olur.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+
+    <img src="img/şiveydiz.jpg" alt="Şiveydiz" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Şiveydiz: Baharın Lezzetli Müjdecisi</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Taze sarımsak, kuzu eti ve nohutla yapılan bu yöresel yemek, yoğurtla terbiye edilir. Hafif ekşi tadı, kızgın tereyağlı nane ile tamamlanır.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Gaziantep başta olmak üzere Güneydoğu’nun en özgün sebzeli-etli yemeklerinden biridir.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<img src="img/hataykünefesi.jpg" alt="Hatay Künefesi" style="text-align: center; margin-left: 495px; width: 45%; height: 400px; object-fit: cover; display: block;">
+    <h3 style="font-size: 30px; text-align: center; margin-left: 10px;">Hatay Künefesi: Peynirin Şerbetle Buluştuğu Sıcak Tatlı</h3>
+    <p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">İncecik tel kadayıf arasına tuzsuz peynir konularak tavada pişirilen künefe, şerbetle buluştuğunda sıcak ve çıtır bir lezzete dönüşür.</p>
+	<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Üzeri genellikle toz Antep fıstığıyla süslenir. Hatay mutfağının en meşhur tatlısıdır.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+<br>
+<br>
+<h3 style="font-size: 30px; text-align: center; margin-left: 0px;">Sadece Bir Yemek Değil, Bir Kültür</h3>
+<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Ülkemiz Türkiye, binlerce yıllık tarihinin, farklı medeniyetlerin ve çeşitli coğrafyaların izlerini taşıyan eşsiz bir mutfak kültürüne sahiptir. Her bölge, kendine has tatlar, malzemeler ve pişirme teknikleriyle bu zenginliğe katkı sunar.</p> 
+<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Bu köklü miras, sadece sofralarımızı değil, kültürel kimliğimizi de yansıtır.</p>
+<p style="width: 1000px; font-size: 25px; text-align: center; margin-left: 406px;">Çünkü bizde yemek, yalnızca beslenmek değil; birlikte olmak, paylaşmak ve yaşatmaktır.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- Footer -->
+<div style="background-color: #666666; padding: 30px; width: 100%; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; color: #99ffff; margin: 0;">
+    
+    <!-- Sol taraf -->
+    <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 15px; margin-top: 50px;">
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <img src="img/phone.png" alt="Telefon" style="width: 40px; height: 40px;">
+            <span style="font-size: 25px; color: #00e6e6;">+90 532 123 45 67</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <img src="img/mail.png" alt="Mail" style="width: 40px; height: 40px;">
+            <span style="font-size: 25px; color: #00e6e6;">info@altinrotalar.com</span>
+        </div>
+    </div>
+
+    <!-- Orta taraf -->
+    <div style="display: flex; flex-direction: column; align-items: center; color: #000; font-size: 14px; gap: 10px;">
+        <span style="color: #e3e39c; font-size: 25px; margin-left: 22px; position: absolute; left: 10px; top: 17475px;">Sorularınız İçin</span>
+        <span style="font-size: 20px; color: #ffcc00; margin-left: 130px; position: absolute; center: 10px; top: 17600px;">© 2025 Altın Rotalar | Tüm Hakları Saklıdır</span>
+        <div style="display: flex; gap: 10px; margin-left: 130px;">
+            <img src="img/twitter.png" alt="X" style="width: 40px; height: 40px;">
+            <img src="img/facebook.png" alt="Facebook" style="width: 40px; height: 40px;">
+            <img src="img/insta.png" alt="Instagram" style="width: 40px; height: 40px;">
+            <img src="img/whatsapp.png" alt="Whatsapp" style="width: 40px; height: 40px;">
+        </div>
+    </div>
+
+    <!-- Sağ taraf -->
+    <div style="display: flex; align-items: center; justify-content: flex-start;">
+        <!-- Harita -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.907772420255!2d34.50327677605045!3d36.73793447120648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d87548532926bf%3A0x4b884eb40705ff9a!2sToros%20%C3%9Cniversitesi%20Mezitli%20Kamp%C3%BCs%C3%BC!5e1!3m2!1str!2str!4v1746966214088!5m2!1str!2str"
+            width="300"
+            height="200"
+            style="border:0; border-radius: 10px; margin-left: 20px; margin-top: 0px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <!-- Sertifika -->
+				<img src="img/sertifika.jpg" style="width: 150px; height: 150px; margin-left: 20px;">
+			</div>
+		</div>
+	</body>
+</html>
